@@ -1,0 +1,658 @@
+INFO:root:Sending to http://127.0.0.1:5000/: {'data': 'example'}
+ERROR:root:Error: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013AE48CE150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5000/: {'data': 'example'}
+ERROR:root:Error: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000263611DE090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 23:54:59] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:09:29] "[33mPOST /line HTTP/1.1[0m" 404 -
+INFO:root:Sending to http://127.0.0.1:5000/: {'data': 'example'}
+ERROR:root:Error: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018057B5ED50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:11:00] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:13:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:13:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:13:59] "[33mGET /line HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:14:53] "[31m[1mGET /start HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:17:06] "[33mPOST /line HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:17:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BCED2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BCEC590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BCEFDD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/set_range
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BCF22D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BD085D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001636BD0A890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/nodes
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:15:39] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:10] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:45] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:18:41] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:19:01] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:27:33] "[35m[1mPOST /start HTTP/1.1[0m" 500 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:31:23] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:23] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:45] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:07] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:24] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:39] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/accept: {'data': 'example'}
+INFO:root:Response: 404
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:00] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:07] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:23] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:23] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:55] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:04] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/accept: {'data': 'example'}
+INFO:root:Response: 404
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:25] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:30] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/accept: {'data': 'example'}
+INFO:root:Response: 404
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:28] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:37] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB29090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB28390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB2BB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/set_range
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB36090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB48390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77DB4A650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/nodes
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:22:21] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021CB4D6BE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021CB4D7A510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021CB4D80C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5020/register
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:19:06] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B4C3B4C910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B4C3B4F050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:0'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5020): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B4C3B557D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5020/register
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBDD110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBDC410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBDFC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/set_range
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBE6150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBF8450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002253FBFA710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/nodes
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:20:39] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:22:57] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:23:55] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Apple is a fruit.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Bat and ball are sports items.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Cat could climb.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Dog digs daily.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /start HTTP/1.1" 200 -
+2025-04-19 20:03:48,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+2025-04-19 20:03:48,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 20:03:49,858 - INFO - Attempt 1 - Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+2025-04-19 20:03:49,868 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+2025-04-19 20:03:51,899 - ERROR - Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F72215DB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:03:52,900 - INFO - Attempt 2 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+2025-04-19 20:03:54,924 - ERROR - Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F72215DB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:03:55,925 - INFO - Attempt 3 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+2025-04-19 20:03:57,967 - ERROR - Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F722160690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:03:57,967 - ERROR - All 3 attempts failed for http://127.0.0.1:5002/set_range
+2025-04-19 20:03:57,969 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:04:00,023 - ERROR - Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F722162B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:04:01,025 - INFO - Attempt 2 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:04:03,049 - ERROR - Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F722178E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:04:04,050 - INFO - Attempt 3 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:04:06,079 - ERROR - Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F72217B110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 20:04:06,079 - ERROR - All 3 attempts failed for http://127.0.0.1:5002/nodes
+2025-04-19 20:04:06,080 - INFO - 127.0.0.1 - - [19/Apr/2025 20:04:06] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:04:06,081 - INFO - Response: 200
+2025-04-19 20:04:28,494 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+2025-04-19 20:04:28,499 - INFO - Response: 200
+2025-04-19 20:04:28,499 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:04:28,504 - INFO - Response: 200
+2025-04-19 20:04:28,506 - INFO - 127.0.0.1 - - [19/Apr/2025 20:04:28] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:05:12,620 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+2025-04-19 20:05:12,638 - INFO - Response: 200
+2025-04-19 20:05:12,640 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+2025-04-19 20:05:12,643 - INFO - Response: 200
+2025-04-19 20:05:12,645 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:05:12,657 - INFO - Response: 200
+2025-04-19 20:05:12,657 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 20:05:12,660 - INFO - Response: 200
+2025-04-19 20:05:12,661 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:12] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:05:34,774 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+2025-04-19 20:05:34,778 - INFO - Response: 200
+2025-04-19 20:05:34,778 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+2025-04-19 20:05:34,782 - INFO - Response: 200
+2025-04-19 20:05:34,782 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+2025-04-19 20:05:34,785 - INFO - Response: 200
+2025-04-19 20:05:34,786 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+2025-04-19 20:05:34,789 - INFO - Response: 200
+2025-04-19 20:05:34,790 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+2025-04-19 20:05:34,793 - INFO - Response: 200
+2025-04-19 20:05:34,793 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:05:56,280 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+2025-04-19 20:05:56,284 - INFO - Response: 200
+2025-04-19 20:05:56,284 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+2025-04-19 20:05:56,289 - INFO - Response: 200
+2025-04-19 20:05:56,289 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+2025-04-19 20:05:56,293 - INFO - Response: 200
+2025-04-19 20:05:56,294 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+2025-04-19 20:05:56,297 - INFO - Response: 200
+2025-04-19 20:05:56,297 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+2025-04-19 20:05:56,302 - INFO - Response: 200
+2025-04-19 20:05:56,302 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+2025-04-19 20:05:56,306 - INFO - Response: 200
+2025-04-19 20:05:56,307 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:06:39,319 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+2025-04-19 20:06:39,329 - INFO - Response: 200
+2025-04-19 20:06:39,329 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+2025-04-19 20:06:39,340 - INFO - Response: 200
+2025-04-19 20:06:39,341 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+2025-04-19 20:06:39,349 - INFO - Response: 200
+2025-04-19 20:06:39,349 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+2025-04-19 20:06:39,354 - INFO - Response: 200
+2025-04-19 20:06:39,354 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+2025-04-19 20:06:39,359 - INFO - Response: 200
+2025-04-19 20:06:39,360 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+2025-04-19 20:06:39,368 - INFO - Response: 200
+2025-04-19 20:06:39,368 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+2025-04-19 20:06:39,373 - INFO - Response: 200
+2025-04-19 20:06:39,373 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /register HTTP/1.1" 200 -
+2025-04-19 20:08:34,113 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'Apple is a fruit.'}
+2025-04-19 20:08:34,504 - INFO - Response: 200
+2025-04-19 20:08:34,504 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'Apple is a fruit.'}
+2025-04-19 20:08:34,626 - INFO - Response: 200
+2025-04-19 20:08:34,627 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'Bat and ball are sports items.'}
+2025-04-19 20:08:34,654 - INFO - Response: 200
+2025-04-19 20:08:34,654 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'Bat and ball are sports items.'}
+2025-04-19 20:08:34,680 - INFO - Response: 200
+2025-04-19 20:08:34,681 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'Cat could climb.'}
+2025-04-19 20:08:34,705 - INFO - Response: 200
+2025-04-19 20:08:34,705 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'Cat could climb.'}
+2025-04-19 20:08:34,729 - INFO - Response: 200
+2025-04-19 20:08:34,729 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'Dog digs daily.'}
+2025-04-19 20:08:34,751 - INFO - Response: 200
+2025-04-19 20:08:34,751 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'Dog digs daily.'}
+2025-04-19 20:08:34,775 - INFO - Response: 200
+2025-04-19 20:08:34,778 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+2025-04-19 20:08:34,801 - INFO - Response: 200
+2025-04-19 20:08:34,801 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+2025-04-19 20:08:34,822 - INFO - Response: 200
+2025-04-19 20:08:34,823 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+2025-04-19 20:08:34,911 - INFO - Response: 200
+2025-04-19 20:08:34,911 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+2025-04-19 20:08:34,948 - INFO - Response: 200
+2025-04-19 20:08:34,948 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+2025-04-19 20:08:34,988 - INFO - Response: 200
+2025-04-19 20:08:34,988 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+2025-04-19 20:08:35,029 - INFO - Response: 200
+2025-04-19 20:08:35,030 - INFO - Attempt 1 - Sending to http://127.0.0.1:5002/line: {'text': 'ammatasiri'}
+2025-04-19 20:08:35,064 - INFO - Response: 200
+2025-04-19 20:08:35,064 - INFO - Attempt 1 - Sending to http://127.0.0.1:5006/line: {'text': 'ammatasiri'}
+2025-04-19 20:08:35,096 - INFO - Response: 200
+2025-04-19 20:08:35,109 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /start HTTP/1.1" 200 -
+2025-04-19 21:23:37,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1001
+2025-04-19 21:23:37,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 21:23:38,510 - INFO - Attempt 1 - Sending to http://127.0.0.1:1001/register: {'type': 'proposer', 'url': 'http://127.0.0.1:1002'}
+2025-04-19 21:23:38,526 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-Z'}
+2025-04-19 21:23:40,574 - ERROR - Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C0DA10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:41,576 - INFO - Attempt 2 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-Z'}
+2025-04-19 21:23:43,610 - ERROR - Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C0DB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:44,612 - INFO - Attempt 3 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-Z'}
+2025-04-19 21:23:46,650 - ERROR - Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C10590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:46,650 - ERROR - All 3 attempts failed for http://127.0.0.1:1002/set_range
+2025-04-19 21:23:46,650 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:23:48,693 - ERROR - Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C12A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:49,695 - INFO - Attempt 2 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:23:51,738 - ERROR - Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C28D50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:52,739 - INFO - Attempt 3 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:23:54,773 - ERROR - Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=1002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BF88C2B010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-19 21:23:54,773 - ERROR - All 3 attempts failed for http://127.0.0.1:1002/nodes
+2025-04-19 21:23:54,773 - INFO - 127.0.0.1 - - [19/Apr/2025 21:23:54] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:23:54,773 - INFO - Response: 200
+2025-04-19 21:24:18,305 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-Z'}
+2025-04-19 21:24:18,315 - INFO - Response: 200
+2025-04-19 21:24:18,317 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:24:18,328 - INFO - Response: 200
+2025-04-19 21:24:18,328 - INFO - 127.0.0.1 - - [19/Apr/2025 21:24:18] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:25:22,530 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-M'}
+2025-04-19 21:25:22,536 - INFO - Response: 200
+2025-04-19 21:25:22,536 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/set_range: {'range': 'N-Z'}
+2025-04-19 21:25:22,542 - INFO - Response: 200
+2025-04-19 21:25:22,542 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:25:22,546 - INFO - Response: 200
+2025-04-19 21:25:22,546 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+2025-04-19 21:25:22,549 - INFO - Response: 200
+2025-04-19 21:25:22,551 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:22] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:25:38,473 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-M'}
+2025-04-19 21:25:38,476 - INFO - Response: 200
+2025-04-19 21:25:38,477 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/set_range: {'range': 'N-Z'}
+2025-04-19 21:25:38,482 - INFO - Response: 200
+2025-04-19 21:25:38,482 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}], 'learner': None}
+2025-04-19 21:25:38,488 - INFO - Response: 200
+2025-04-19 21:25:38,488 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}], 'learner': None}
+2025-04-19 21:25:38,495 - INFO - Response: 200
+2025-04-19 21:25:38,495 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}], 'learner': None}
+2025-04-19 21:25:38,502 - INFO - Response: 200
+2025-04-19 21:25:38,503 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:25:51,110 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-M'}
+2025-04-19 21:25:51,120 - INFO - Response: 200
+2025-04-19 21:25:51,120 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/set_range: {'range': 'N-Z'}
+2025-04-19 21:25:51,129 - INFO - Response: 200
+2025-04-19 21:25:51,130 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': None}
+2025-04-19 21:25:51,130 - INFO - Response: 200
+2025-04-19 21:25:51,130 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': None}
+2025-04-19 21:25:51,136 - INFO - Response: 200
+2025-04-19 21:25:51,136 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': None}
+2025-04-19 21:25:51,143 - INFO - Response: 200
+2025-04-19 21:25:51,143 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': None}
+2025-04-19 21:25:51,145 - INFO - Response: 200
+2025-04-19 21:25:51,145 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:26:02,759 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/set_range: {'range': 'A-M'}
+2025-04-19 21:26:02,777 - INFO - Response: 200
+2025-04-19 21:26:02,779 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/set_range: {'range': 'N-Z'}
+2025-04-19 21:26:02,785 - INFO - Response: 200
+2025-04-19 21:26:02,785 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': {'url': 'http://127.0.0.1:1006'}}
+2025-04-19 21:26:02,791 - INFO - Response: 200
+2025-04-19 21:26:02,793 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': {'url': 'http://127.0.0.1:1006'}}
+2025-04-19 21:26:02,795 - INFO - Response: 200
+2025-04-19 21:26:02,795 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': {'url': 'http://127.0.0.1:1006'}}
+2025-04-19 21:26:02,805 - INFO - Response: 200
+2025-04-19 21:26:02,805 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': {'url': 'http://127.0.0.1:1006'}}
+2025-04-19 21:26:02,807 - INFO - Response: 200
+2025-04-19 21:26:02,807 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/nodes: {'proposers': [{'url': 'http://127.0.0.1:1002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:1003', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:1004'}, {'url': 'http://127.0.0.1:1005'}], 'learner': {'url': 'http://127.0.0.1:1006'}}
+2025-04-19 21:26:02,814 - INFO - Response: 200
+2025-04-19 21:26:02,814 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /register HTTP/1.1" 200 -
+2025-04-19 21:26:19,994 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'Apple is a fruit.'}
+2025-04-19 21:26:20,016 - INFO - Response: 200
+2025-04-19 21:26:20,016 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'Apple is a fruit.'}
+2025-04-19 21:26:20,039 - INFO - Response: 200
+2025-04-19 21:26:20,039 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'Bat and ball are sports items.'}
+2025-04-19 21:26:20,058 - INFO - Response: 200
+2025-04-19 21:26:20,058 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'Bat and ball are sports items.'}
+2025-04-19 21:26:20,074 - INFO - Response: 200
+2025-04-19 21:26:20,074 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'Cat could climb.'}
+2025-04-19 21:26:20,097 - INFO - Response: 200
+2025-04-19 21:26:20,097 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'Cat could climb.'}
+2025-04-19 21:26:20,121 - INFO - Response: 200
+2025-04-19 21:26:20,124 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'Dog digs daily.'}
+2025-04-19 21:26:20,145 - INFO - Response: 200
+2025-04-19 21:26:20,146 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'Dog digs daily.'}
+2025-04-19 21:26:20,166 - INFO - Response: 200
+2025-04-19 21:26:20,168 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+2025-04-19 21:26:20,184 - INFO - Response: 200
+2025-04-19 21:26:20,184 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.'}
+2025-04-19 21:26:20,201 - INFO - Response: 200
+2025-04-19 21:26:20,201 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+2025-04-19 21:26:20,217 - INFO - Response: 200
+2025-04-19 21:26:20,217 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.'}
+2025-04-19 21:26:20,231 - INFO - Response: 200
+2025-04-19 21:26:20,231 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+2025-04-19 21:26:20,254 - INFO - Response: 200
+2025-04-19 21:26:20,254 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report'}
+2025-04-19 21:26:20,273 - INFO - Response: 200
+2025-04-19 21:26:20,273 - INFO - Attempt 1 - Sending to http://127.0.0.1:1002/line: {'text': 'ammatasiri aaasss'}
+2025-04-19 21:26:20,288 - INFO - Response: 200
+2025-04-19 21:26:20,288 - INFO - Attempt 1 - Sending to http://127.0.0.1:1003/line: {'text': 'ammatasiri aaasss'}
+2025-04-19 21:26:20,304 - INFO - Response: 200
+2025-04-19 21:26:20,307 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /start HTTP/1.1" 200 -

@@ -1,0 +1,163 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'acceptor', 'url': 'http://127.0.0.1:5003'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:05:33,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2025-04-19 20:05:33,784 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 20:05:34,770 - INFO - Attempt 1 - Sending to http://127.0.0.1:5020/register: {'type': 'acceptor', 'url': 'http://127.0.0.1:5003'}
+2025-04-19 20:05:34,793 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:05:34,795 - INFO - Response: 200
+2025-04-19 20:05:56,301 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:06:39,359 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:08:34,225 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 20:08:34,343 - INFO - Response: 200
+2025-04-19 20:08:34,347 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,581 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 20:08:34,588 - INFO - Response: 200
+2025-04-19 20:08:34,588 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,636 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 20:08:34,641 - INFO - Response: 200
+2025-04-19 20:08:34,641 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,664 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,667 - INFO - Response: 200
+2025-04-19 20:08:34,669 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,689 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 20:08:34,694 - INFO - Response: 200
+2025-04-19 20:08:34,694 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,712 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,714 - INFO - Response: 200
+2025-04-19 20:08:34,715 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,734 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 20:08:34,738 - INFO - Response: 200
+2025-04-19 20:08:34,739 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,758 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,761 - INFO - Response: 200
+2025-04-19 20:08:34,762 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,785 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 20:08:34,789 - INFO - Response: 200
+2025-04-19 20:08:34,789 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,807 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 20:08:34,812 - INFO - Response: 200
+2025-04-19 20:08:34,812 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,884 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 20:08:34,890 - INFO - Response: 200
+2025-04-19 20:08:34,890 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,920 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 20:08:34,929 - INFO - Response: 200
+2025-04-19 20:08:34,929 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:34,960 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 20:08:34,969 - INFO - Response: 200
+2025-04-19 20:08:34,970 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:35,000 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,005 - INFO - Response: 200
+2025-04-19 20:08:35,006 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:35,043 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 54, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri']}
+2025-04-19 20:08:35,050 - INFO - Response: 200
+2025-04-19 20:08:35,050 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /accept HTTP/1.1" 200 -
+2025-04-19 20:08:35,073 - INFO - Attempt 1 - Sending to http://127.0.0.1:5004/learn: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,080 - INFO - Response: 200
+2025-04-19 20:08:35,080 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:25:37,480 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1004
+2025-04-19 21:25:37,481 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 21:25:38,467 - INFO - Attempt 1 - Sending to http://127.0.0.1:1001/register: {'type': 'acceptor', 'url': 'http://127.0.0.1:1004'}
+2025-04-19 21:25:38,501 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:25:38,506 - INFO - Response: 200
+2025-04-19 21:25:51,143 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:02,799 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:19,999 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 21:26:20,004 - INFO - Response: 200
+2025-04-19 21:26:20,006 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,025 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 21:26:20,030 - INFO - Response: 200
+2025-04-19 21:26:20,030 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,044 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 21:26:20,048 - INFO - Response: 200
+2025-04-19 21:26:20,048 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,065 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,065 - INFO - Response: 200
+2025-04-19 21:26:20,065 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,084 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 21:26:20,088 - INFO - Response: 200
+2025-04-19 21:26:20,088 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,107 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,107 - INFO - Response: 200
+2025-04-19 21:26:20,107 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,129 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 21:26:20,132 - INFO - Response: 200
+2025-04-19 21:26:20,132 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,154 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,156 - INFO - Response: 200
+2025-04-19 21:26:20,156 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,173 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 21:26:20,177 - INFO - Response: 200
+2025-04-19 21:26:20,177 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,189 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 21:26:20,193 - INFO - Response: 200
+2025-04-19 21:26:20,193 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,206 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 21:26:20,210 - INFO - Response: 200
+2025-04-19 21:26:20,210 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,217 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 21:26:20,227 - INFO - Response: 200
+2025-04-19 21:26:20,227 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,238 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 21:26:20,246 - INFO - Response: 200
+2025-04-19 21:26:20,246 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,261 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,264 - INFO - Response: 200
+2025-04-19 21:26:20,264 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,277 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'A-M', 'count': 55, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri', 'aaasss']}
+2025-04-19 21:26:20,277 - INFO - Response: 200
+2025-04-19 21:26:20,277 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -
+2025-04-19 21:26:20,293 - INFO - Attempt 1 - Sending to http://127.0.0.1:1006/learn: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,298 - INFO - Response: 200
+2025-04-19 21:26:20,298 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /accept HTTP/1.1" 200 -

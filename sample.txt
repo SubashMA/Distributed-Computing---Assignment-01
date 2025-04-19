@@ -1,0 +1,8 @@
+Apple is a fruit.
+Bat and ball are sports items.
+Cat could climb.
+Dog digs daily.
+GRPC, MQTT and can use libraries to ease out the communication implementation in the sidecar.
+Should be able to spawn new nodes anytime (up to any number) and the cluster should work accordingly.
+this is a assignment ive gotten, i have to create a word distributed word counting system. and i have developed the system now i have to create a solution report for the assignment "Assignment Report
+ammatasiri

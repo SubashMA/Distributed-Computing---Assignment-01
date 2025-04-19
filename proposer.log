@@ -1,0 +1,279 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5000/line: {'data': 'example'}
+INFO:root:Response: 404
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:16:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:16:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:16:34] "[31m[1mGET /line HTTP/1.1[0m" 405 -
+INFO:root:Sending to http://127.0.0.1:5000/line: {'data': 'example'}
+INFO:root:Response: 404
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 00:17:22] "[31m[1mGET /line HTTP/1.1[0m" 405 -
+INFO:root:Sending to http://127.0.0.1:5001/line: {'data': 'example'}
+ERROR:root:Error: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /line (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8267D9550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:10] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:10] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:45] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:45] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:18:41] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:18:41] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:19:01] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:19:01] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 76, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'it', 'is', 'a', 'long', 'established', 'fact', 'a', 'be', 'distracted', 'by', 'content', 'a', 'looking', 'at', 'its', 'layout', 'lorem', 'ipsum', 'is', 'it', 'has', 'a', 'more', 'less', 'distribution', 'letters', 'as', 'content', 'here', 'content', 'here', 'making', 'it', 'look', 'like', 'english', 'many', 'desktop', 'and', 'editors', 'lorem', 'ipsum', 'as', 'default', 'model', 'and', 'a', 'for', 'lorem', 'ipsum', 'many', 'in', 'infancy', 'have', 'evolved', 'by', 'accident', 'injected', 'humour', 'and', 'like']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:31:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 121, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'it', 'is', 'a', 'long', 'established', 'fact', 'a', 'be', 'distracted', 'by', 'content', 'a', 'looking', 'at', 'its', 'layout', 'lorem', 'ipsum', 'is', 'it', 'has', 'a', 'more', 'less', 'distribution', 'letters', 'as', 'content', 'here', 'content', 'here', 'making', 'it', 'look', 'like', 'english', 'many', 'desktop', 'and', 'editors', 'lorem', 'ipsum', 'as', 'default', 'model', 'and', 'a', 'for', 'lorem', 'ipsum', 'many', 'in', 'infancy', 'have', 'evolved', 'by', 'accident', 'injected', 'humour', 'and', 'like', 'lorem', 'ipsum', 'is', 'dummy', 'and', 'industry', 'lorem', 'ipsum', 'has', 'been', 'industry', 'dummy', 'ever', 'an', 'a', 'galley', 'and', 'it', 'make', 'a', 'book', 'it', 'has', 'five', 'centuries', 'but', 'also', 'leap', 'into', 'electronic', 'essentially', 'it', 'in', 'letraset', 'containing', 'lorem', 'ipsum', 'and', 'more', 'desktop', 'like', 'aldus', 'including', 'lorem', 'ipsum']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 166, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'it', 'is', 'a', 'long', 'established', 'fact', 'a', 'be', 'distracted', 'by', 'content', 'a', 'looking', 'at', 'its', 'layout', 'lorem', 'ipsum', 'is', 'it', 'has', 'a', 'more', 'less', 'distribution', 'letters', 'as', 'content', 'here', 'content', 'here', 'making', 'it', 'look', 'like', 'english', 'many', 'desktop', 'and', 'editors', 'lorem', 'ipsum', 'as', 'default', 'model', 'and', 'a', 'for', 'lorem', 'ipsum', 'many', 'in', 'infancy', 'have', 'evolved', 'by', 'accident', 'injected', 'humour', 'and', 'like', 'lorem', 'ipsum', 'is', 'dummy', 'and', 'industry', 'lorem', 'ipsum', 'has', 'been', 'industry', 'dummy', 'ever', 'an', 'a', 'galley', 'and', 'it', 'make', 'a', 'book', 'it', 'has', 'five', 'centuries', 'but', 'also', 'leap', 'into', 'electronic', 'essentially', 'it', 'in', 'letraset', 'containing', 'lorem', 'ipsum', 'and', 'more', 'desktop', 'like', 'aldus', 'including', 'lorem', 'ipsum', 'lorem', 'ipsum', 'is', 'dummy', 'and', 'industry', 'lorem', 'ipsum', 'has', 'been', 'industry', 'dummy', 'ever', 'an', 'a', 'galley', 'and', 'it', 'make', 'a', 'book', 'it', 'has', 'five', 'centuries', 'but', 'also', 'leap', 'into', 'electronic', 'essentially', 'it', 'in', 'letraset', 'containing', 'lorem', 'ipsum', 'and', 'more', 'desktop', 'like', 'aldus', 'including', 'lorem', 'ipsum']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:45] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:07] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:07] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:24] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:24] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:39] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:39] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:46] "[33mPOST /accept HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:00] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:00] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:07] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:07] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 65, 'words': ['are', 'many', 'lorem', 'ipsum', 'available', 'but', 'majority', 'have', 'alteration', 'in', 'form', 'by', 'injected', 'humour', 'don', 'look', 'even', 'believable', 'if', 'are', 'going', 'a', 'lorem', 'ipsum', 'be', 'isn', 'anything', 'embarrassing', 'hidden', 'in', 'middle', 'all', 'lorem', 'ipsum', 'generators', 'internet', 'chunks', 'as', 'making', 'first', 'generator', 'internet', 'it', 'a', 'dictionary', 'latin', 'combined', 'a', 'handful', 'model', 'generate', 'lorem', 'ipsum', 'looks', 'generated', 'lorem', 'ipsum', 'is', 'always', 'free', 'from', 'injected', 'humour', 'characteristic', 'etc']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 134, 'words': ['are', 'many', 'lorem', 'ipsum', 'available', 'but', 'majority', 'have', 'alteration', 'in', 'form', 'by', 'injected', 'humour', 'don', 'look', 'even', 'believable', 'if', 'are', 'going', 'a', 'lorem', 'ipsum', 'be', 'isn', 'anything', 'embarrassing', 'hidden', 'in', 'middle', 'all', 'lorem', 'ipsum', 'generators', 'internet', 'chunks', 'as', 'making', 'first', 'generator', 'internet', 'it', 'a', 'dictionary', 'latin', 'combined', 'a', 'handful', 'model', 'generate', 'lorem', 'ipsum', 'looks', 'generated', 'lorem', 'ipsum', 'is', 'always', 'free', 'from', 'injected', 'humour', 'characteristic', 'etc', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:23] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:55] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:55] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 69, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:04] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:11] "[33mPOST /accept HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:25] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:25] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 138, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:30] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:19] "[33mPOST /accept HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:28] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:28] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 142, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'apple', 'is', 'a', 'fruit']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 147, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 150, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 153, 'words': ['at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'at', 'eos', 'et', 'accusamus', 'et', 'iusto', 'dignissimos', 'ducimus', 'blanditiis', 'deleniti', 'atque', 'corrupti', 'dolores', 'et', 'molestias', 'excepturi', 'cupiditate', 'in', 'culpa', 'deserunt', 'mollitia', 'animi', 'id', 'est', 'laborum', 'et', 'dolorum', 'fuga', 'et', 'harum', 'facilis', 'est', 'et', 'expedita', 'distinctio', 'libero', 'cum', 'est', 'eligendi', 'cumque', 'impedit', 'minus', 'id', 'maxime', 'facere', 'assumenda', 'est', 'dolor', 'autem', 'et', 'aut', 'debitis', 'aut', 'eveniet', 'et', 'et', 'molestiae', 'itaque', 'earum', 'hic', 'a', 'delectus', 'aut', 'maiores', 'alias', 'consequatur', 'aut', 'doloribus', 'asperiores', 'apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Response: 200
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:22:57] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:22:57] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:23:55] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:23:55] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:04:27,516 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-04-19 20:04:27,516 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 20:04:28,491 - INFO - Attempt 1 - Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+2025-04-19 20:04:28,499 - INFO - 127.0.0.1 - - [19/Apr/2025 20:04:28] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:04:28,504 - INFO - 127.0.0.1 - - [19/Apr/2025 20:04:28] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:04:28,507 - INFO - Response: 200
+2025-04-19 20:05:12,636 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:12] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:12,648 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:12] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:05:34,777 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:34,785 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:05:56,283 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:56,293 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:06:39,328 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:06:39,347 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:08:34,155 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 20:08:34,372 - INFO - Response: 200
+2025-04-19 20:08:34,372 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 20:08:34,499 - INFO - Response: 200
+2025-04-19 20:08:34,501 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,632 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 20:08:34,642 - INFO - Response: 200
+2025-04-19 20:08:34,644 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 20:08:34,652 - INFO - Response: 200
+2025-04-19 20:08:34,653 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,685 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 20:08:34,694 - INFO - Response: 200
+2025-04-19 20:08:34,695 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 20:08:34,704 - INFO - Response: 200
+2025-04-19 20:08:34,704 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,732 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 20:08:34,739 - INFO - Response: 200
+2025-04-19 20:08:34,739 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 20:08:34,750 - INFO - Response: 200
+2025-04-19 20:08:34,751 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,783 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 20:08:34,790 - INFO - Response: 200
+2025-04-19 20:08:34,790 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 20:08:34,800 - INFO - Response: 200
+2025-04-19 20:08:34,800 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,829 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 20:08:34,893 - INFO - Response: 200
+2025-04-19 20:08:34,896 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 20:08:34,910 - INFO - Response: 200
+2025-04-19 20:08:34,910 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,953 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 20:08:34,972 - INFO - Response: 200
+2025-04-19 20:08:34,974 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 20:08:34,987 - INFO - Response: 200
+2025-04-19 20:08:34,987 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:35,036 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 54, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri']}
+2025-04-19 20:08:35,051 - INFO - Response: 200
+2025-04-19 20:08:35,052 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 54, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri']}
+2025-04-19 20:08:35,063 - INFO - Response: 200
+2025-04-19 20:08:35,064 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:24:17,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1002
+2025-04-19 21:24:17,304 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 21:24:18,292 - INFO - Attempt 1 - Sending to http://127.0.0.1:1001/register: {'type': 'proposer', 'url': 'http://127.0.0.1:1002'}
+2025-04-19 21:24:18,313 - INFO - 127.0.0.1 - - [19/Apr/2025 21:24:18] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:24:18,324 - INFO - 127.0.0.1 - - [19/Apr/2025 21:24:18] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:24:18,332 - INFO - Response: 200
+2025-04-19 21:25:22,534 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:22] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:22,546 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:22] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:25:38,476 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:38,487 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:25:51,114 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:51,130 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:02,775 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:26:02,791 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:19,996 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 21:26:20,006 - INFO - Response: 200
+2025-04-19 21:26:20,006 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['apple', 'is', 'a', 'fruit']}
+2025-04-19 21:26:20,016 - INFO - Response: 200
+2025-04-19 21:26:20,016 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,042 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 21:26:20,048 - INFO - Response: 200
+2025-04-19 21:26:20,048 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 9, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items']}
+2025-04-19 21:26:20,056 - INFO - Response: 200
+2025-04-19 21:26:20,058 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,081 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 21:26:20,088 - INFO - Response: 200
+2025-04-19 21:26:20,090 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 12, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb']}
+2025-04-19 21:26:20,097 - INFO - Response: 200
+2025-04-19 21:26:20,097 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,127 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 21:26:20,134 - INFO - Response: 200
+2025-04-19 21:26:20,137 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 15, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily']}
+2025-04-19 21:26:20,144 - INFO - Response: 200
+2025-04-19 21:26:20,145 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,170 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 21:26:20,177 - INFO - Response: 200
+2025-04-19 21:26:20,177 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 24, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in']}
+2025-04-19 21:26:20,184 - INFO - Response: 200
+2025-04-19 21:26:20,184 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,203 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 21:26:20,210 - INFO - Response: 200
+2025-04-19 21:26:20,210 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 31, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly']}
+2025-04-19 21:26:20,217 - INFO - Response: 200
+2025-04-19 21:26:20,217 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,238 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 21:26:20,246 - INFO - Response: 200
+2025-04-19 21:26:20,248 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 53, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment']}
+2025-04-19 21:26:20,254 - INFO - Response: 200
+2025-04-19 21:26:20,254 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,273 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'A-M', 'count': 55, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri', 'aaasss']}
+2025-04-19 21:26:20,277 - INFO - Response: 200
+2025-04-19 21:26:20,277 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'A-M', 'count': 55, 'words': ['apple', 'is', 'a', 'fruit', 'bat', 'and', 'ball', 'are', 'items', 'cat', 'could', 'climb', 'dog', 'digs', 'daily', 'grpc', 'mqtt', 'and', 'can', 'libraries', 'ease', 'communication', 'implementation', 'in', 'be', 'able', 'anytime', 'any', 'and', 'cluster', 'accordingly', 'is', 'a', 'assignment', 'ive', 'gotten', 'i', 'have', 'create', 'a', 'distributed', 'counting', 'and', 'i', 'have', 'developed', 'i', 'have', 'create', 'a', 'for', 'assignment', 'assignment', 'ammatasiri', 'aaasss']}
+2025-04-19 21:26:20,288 - INFO - Response: 200
+2025-04-19 21:26:20,288 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -

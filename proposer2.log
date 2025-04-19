@@ -1,0 +1,229 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:45] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:17:45] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:18:41] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:18:41] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:19:01] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:19:01] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:29:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 46, 'words': ['sports', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:31:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 91, 'words': ['sports', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'simply', 'text', 'of', 'the', 'printing', 'typesetting', 'the', 's', 'standard', 'text', 'since', 'the', 'when', 'unknown', 'printer', 'took', 'of', 'type', 'scrambled', 'to', 'type', 'specimen', 'survived', 'not', 'only', 'the', 'typesetting', 'remaining', 'unchanged', 'was', 'popularised', 'the', 'with', 'the', 'release', 'of', 'sheets', 'passages', 'recently', 'with', 'publishing', 'software', 'pagemaker', 'versions', 'of']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 136, 'words': ['sports', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'simply', 'text', 'of', 'the', 'printing', 'typesetting', 'the', 's', 'standard', 'text', 'since', 'the', 'when', 'unknown', 'printer', 'took', 'of', 'type', 'scrambled', 'to', 'type', 'specimen', 'survived', 'not', 'only', 'the', 'typesetting', 'remaining', 'unchanged', 'was', 'popularised', 'the', 'with', 'the', 'release', 'of', 'sheets', 'passages', 'recently', 'with', 'publishing', 'software', 'pagemaker', 'versions', 'of', 'simply', 'text', 'of', 'the', 'printing', 'typesetting', 'the', 's', 'standard', 'text', 'since', 'the', 'when', 'unknown', 'printer', 'took', 'of', 'type', 'scrambled', 'to', 'type', 'specimen', 'survived', 'not', 'only', 'the', 'typesetting', 'remaining', 'unchanged', 'was', 'popularised', 'the', 'with', 'the', 'release', 'of', 'sheets', 'passages', 'recently', 'with', 'publishing', 'software', 'pagemaker', 'versions', 'of']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:45] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:39] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:39] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:00] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:00] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:07] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:07] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 58, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:23] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 109, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:23] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:55] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:36:55] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 160, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:04] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:25] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:25] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 211, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:37:30] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:28] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:28] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 211, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 212, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 212, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:36] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 212, 'words': ['there', 'variations', 'of', 'passages', 'of', 'the', 'suffered', 'some', 'or', 'randomised', 'words', 'which', 't', 'slightly', 'you', 'to', 'use', 'passage', 'of', 'you', 'need', 'to', 'sure', 'there', 't', 'the', 'of', 'text', 'the', 'on', 'the', 'tend', 'to', 'repeat', 'predefined', 'necessary', 'this', 'the', 'true', 'on', 'the', 'uses', 'of', 'over', 'words', 'with', 'of', 'sentence', 'structures', 'to', 'which', 'reasonable', 'the', 'therefore', 'repetition', 'or', 'non', 'words', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'vero', 'odio', 'qui', 'praesentium', 'voluptatum', 'quos', 'quas', 'sint', 'occaecati', 'non', 'provident', 'similique', 'sunt', 'qui', 'officia', 'quidem', 'rerum', 'nam', 'tempore', 'soluta', 'nobis', 'optio', 'nihil', 'quo', 'quod', 'placeat', 'possimus', 'omnis', 'voluptas', 'omnis', 'repellendus', 'temporibus', 'quibusdam', 'officiis', 'rerum', 'necessitatibus', 'saepe', 'ut', 'voluptates', 'repudiandae', 'sint', 'non', 'recusandae', 'rerum', 'tenetur', 'sapiente', 'ut', 'reiciendis', 'voluptatibus', 'perferendis', 'repellat', 'sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:38:37] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:23:55] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:23:55] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:25:12] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:04] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:26:50] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 17:27:50] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:10] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 18:46:11] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:05:11,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+2025-04-19 20:05:11,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 20:05:12,608 - INFO - Attempt 1 - Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+2025-04-19 20:05:12,643 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:12] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:12,660 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:12] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:05:12,662 - INFO - Response: 200
+2025-04-19 20:05:34,782 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:34,789 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:34] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:05:56,288 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:05:56,296 - INFO - 127.0.0.1 - - [19/Apr/2025 20:05:56] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:06:39,337 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 20:06:39,353 - INFO - 127.0.0.1 - - [19/Apr/2025 20:06:39] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 20:08:34,544 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 20:08:34,599 - INFO - Response: 200
+2025-04-19 20:08:34,601 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 20:08:34,622 - INFO - Response: 200
+2025-04-19 20:08:34,625 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,660 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,669 - INFO - Response: 200
+2025-04-19 20:08:34,670 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,678 - INFO - Response: 200
+2025-04-19 20:08:34,679 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,709 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,715 - INFO - Response: 200
+2025-04-19 20:08:34,716 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,726 - INFO - Response: 200
+2025-04-19 20:08:34,727 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,754 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,762 - INFO - Response: 200
+2025-04-19 20:08:34,763 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 20:08:34,773 - INFO - Response: 200
+2025-04-19 20:08:34,774 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,804 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 20:08:34,813 - INFO - Response: 200
+2025-04-19 20:08:34,813 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 20:08:34,820 - INFO - Response: 200
+2025-04-19 20:08:34,821 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,918 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 20:08:34,930 - INFO - Response: 200
+2025-04-19 20:08:34,932 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 20:08:34,944 - INFO - Response: 200
+2025-04-19 20:08:34,944 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:34] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:34,997 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,007 - INFO - Response: 200
+2025-04-19 20:08:35,012 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,028 - INFO - Response: 200
+2025-04-19 20:08:35,029 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /line HTTP/1.1" 200 -
+2025-04-19 20:08:35,070 - INFO - Attempt 1 - Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,080 - INFO - Response: 200
+2025-04-19 20:08:35,084 - INFO - Attempt 1 - Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 20:08:35,095 - INFO - Response: 200
+2025-04-19 20:08:35,095 - INFO - 127.0.0.1 - - [19/Apr/2025 20:08:35] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:25:21,533 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1003
+2025-04-19 21:25:21,537 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 21:25:22,523 - INFO - Attempt 1 - Sending to http://127.0.0.1:1001/register: {'type': 'proposer', 'url': 'http://127.0.0.1:1003'}
+2025-04-19 21:25:22,541 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:22] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:22,549 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:22] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:25:22,551 - INFO - Response: 200
+2025-04-19 21:25:38,481 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:38,494 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:38] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:25:51,128 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:25:51,136 - INFO - 127.0.0.1 - - [19/Apr/2025 21:25:51] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:02,785 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /set_range HTTP/1.1" 200 -
+2025-04-19 21:26:02,795 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:02] "POST /nodes HTTP/1.1" 200 -
+2025-04-19 21:26:20,022 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 21:26:20,030 - INFO - Response: 200
+2025-04-19 21:26:20,030 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+2025-04-19 21:26:20,035 - INFO - Response: 200
+2025-04-19 21:26:20,035 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,062 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,065 - INFO - Response: 200
+2025-04-19 21:26:20,065 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,074 - INFO - Response: 200
+2025-04-19 21:26:20,074 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,103 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,111 - INFO - Response: 200
+2025-04-19 21:26:20,112 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,120 - INFO - Response: 200
+2025-04-19 21:26:20,120 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,148 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,157 - INFO - Response: 200
+2025-04-19 21:26:20,157 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+2025-04-19 21:26:20,164 - INFO - Response: 200
+2025-04-19 21:26:20,164 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,186 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 21:26:20,193 - INFO - Response: 200
+2025-04-19 21:26:20,193 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 7, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar']}
+2025-04-19 21:26:20,198 - INFO - Response: 200
+2025-04-19 21:26:20,198 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,217 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 21:26:20,227 - INFO - Response: 200
+2025-04-19 21:26:20,227 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 18, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work']}
+2025-04-19 21:26:20,231 - INFO - Response: 200
+2025-04-19 21:26:20,231 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,257 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,264 - INFO - Response: 200
+2025-04-19 21:26:20,264 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,271 - INFO - Response: 200
+2025-04-19 21:26:20,271 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
+2025-04-19 21:26:20,293 - INFO - Attempt 1 - Sending to http://127.0.0.1:1004/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,298 - INFO - Response: 200
+2025-04-19 21:26:20,298 - INFO - Attempt 1 - Sending to http://127.0.0.1:1005/accept: {'letter_range': 'N-Z', 'count': 31, 'words': ['sports', 'use', 'to', 'out', 'the', 'the', 'sidecar', 'should', 'to', 'spawn', 'new', 'nodes', 'up', 'to', 'number', 'the', 'should', 'work', 'this', 'to', 'word', 'word', 'system', 'the', 'system', 'now', 'to', 'solution', 'report', 'the', 'report']}
+2025-04-19 21:26:20,304 - INFO - Response: 200
+2025-04-19 21:26:20,304 - INFO - 127.0.0.1 - - [19/Apr/2025 21:26:20] "POST /line HTTP/1.1" 200 -
